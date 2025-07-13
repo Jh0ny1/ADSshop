@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADSshop - Sua Loja Online</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonte personalizada -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    </style>
+    
+    <!-- CSS personalizado opcional -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Seção: Banner Hero -->
+    <section class="oferta-semana">
+        <div class="container">
+            <h2 class="titulo">As Melhores Ofertas da Semana</h2>
+            <p class="descricao">Economize até 30% nos nossos produtos mais populares. Aproveite agora!</p>
+            
+        </div>
+    </section>
+    
+    <!-- Fecha grid-destaque -->
+    
+</section>
+
+<!-- Container para o carrossel -->
+<section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+        <!-- Título -->
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-2xl font-bold text-gray-900">Ofertas Especiais</h2>
+            <div class="flex space-x-2">
+                <!-- Botões de navegação do carrossel -->
+                <button class="prev p-2 rounded-full bg-gray-200 hover:bg-gray-300 text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+                <button class="next p-2 rounded-full bg-gray-200 hover:bg-gray-300 text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Carrossel -->
+        <div class="carousel-container">
+            <div id="carousel" class="carousel-wrapper">
+                <!-- Slide 1 -->
+                <a href="https://amzn.to/450JUOj" class="carousel-slide">
+                    <div class="carousel-slide">
+                    <div class="carousel-card">
+                        <div class="carousel-image">
+                            <img src="src/61cXAAYAAAL._AC_SX679_.jpg" alt="Galaxy Watch 4">
+                        </div>
+                        <div class="carousel-info">
+                            <h3 class="carousel-title">Fritadeira Airfryer Essential XL Conectada c/Alexa</h3>
+                            <p class="carousel-description">Número 1 do mundo Philips é a marca líder mundial* na categoria Airfryer e foi a pioneira no Brasil
+*Fonte: Euromonitor International Ltd; air fryers de acordo com a definição da categoria de fritadeiras sem óleo, segundo definições da categoria de fritadeiras elétricas; vendas no varejo em valor, dados de 2023, pesquisa realizada em Fevereiro de 2024.</p>
+                            <div class="carousel-footer">
+                                <div>
+                                    <span class="carousel-price">R$892,00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+                <!-- Slide 2 -->
+                <a href="https://amzn.to/4nNc3j8" class="carousel-slide">
+                <div class="carousel-slide">
+                    <div class="carousel-card">
+                        <div class="carousel-image">
+                            <img src="src/51gDog80uXL._AC_SX679_.jpg" alt="Apple iPhone 15 Plus">
+                        </div>
+                        <div class="carousel-info">
+                            <h3 class="carousel-title">Apple iPhone 15 Plus</h3>
+                            <p class="carousel-description">O aparelho é super interessante. A Ilha Dinâmica traz um charme a mais e, apesar de muitos questionarem a fluidez por conta da taxa de atualização da tela, achei o desempenho excelente. O sistema iOS é muito bem otimizado e não senti diferença, mesmo vindo de um aparelho com 90Hz.
+As câmeras são excelentes, não tenho do que reclamar. Sobre o armazenamento, optei logo pela versão de 256GB, pois os 128GB já não atendiam mais às minhas necessidades.</p>
+                            <div class="carousel-footer">
+                                <div>
+                                    <span class="carousel-old-price">R$8.299,00</span>
+                                    <span class="carousel-price">R$6.665,52</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+                <!-- Slide 3 -->
+                <a href="https://amzn.to/4698Nsm" class="carousel-slide">
+                <div class="carousel-slide">
+                    <div class="carousel-card">
+                        <div class="carousel-image">
+                            <img src="src/41s0vKcjWAL._AC_SX679_.jpg" alt="COIFA DE PAREDE Fogatti VIDRO CURVO">
+                        </div>
+                        <div class="carousel-info">
+                            <h3 class="carousel-title">COIFA DE PAREDE Fogatti VIDRO CURVO</h3>
+                            <p class="carousel-description">Deixe sua cozinha mais moderna com a Coifa Vidro Curvo Slim da Fogatti. Além de prática e bonita, possui acabamento em aço inox escovado e acompanha filtro de alumínio e filtro de carvão ativado. A coifa pode ser instalada de dois modos distintos: como exaustor ou como depurador. Com design diferenciado, possui vidro curvo e temperado, que facilita sua limpeza, iluminação com lâmpadas de led e três velocidades. Traga mais versatilidade para sua cozinha!</p>
+                            <div class="carousel-footer">
+                                <div>
+                                    <span class="carousel-price">R$669,00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div> 
+</section> <!-- Fecha carrossel -->
+    <!-- Script do carrossel -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousel = document.getElementById('carousel');
+            const prev = document.querySelector('.prev');
+            const next = document.querySelector('.next');
+            const totalSlides = carousel.children.length;
+            
+            let currentIndex = 0;
+            
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+            
+            prev.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+                updateCarousel();
+            });
+            
+            next.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % totalSlides;
+                updateCarousel();
+            });
+            
+            // (Opcional) autoplay a cada 5 segundos
+            setInterval(() => {
+                currentIndex = (currentIndex + 1) % totalSlides;
+                updateCarousel();
+            }, 5000);
+        });
+    </script>
+    
+    <!-- Seção: Produtos em Destaque Cozinha -->
+    <section class="destaque-produtos" style="padding-bottom: 20px;">
+        <div class="container">
+            <div class="header-destaque">
+                <h2 class="titulo-destaque">Mais Vendidos em Cozinha</h2>
+            </div>
+            
+            <div class="grid-destaque" id="featured-products">
+                <!-- Produto 1 -->
+                
+                <a href="https://amzn.to/4eSBsnQ" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/61qHCzXP3JL._AC_SX679_.jpg" alt="Sanduicheira Elétrica Cadence Click - 127V" class="product-img">
+                        <span class="discount-badge">-12%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Sanduicheira Elétrica Cadence Click - 127V</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="old-price">R$ 109,00</span>
+                                <span class="price">R$ 94,90</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Produto 2 -->
+                
+                <a href="https://amzn.to/3Ubx1L2" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/61lJjtLR5uL._AC_SX679_.jpg" alt="Pipoqueira, Pop Time, Branco, 220v, Britânia" class="product-img">
+                        <span class="discount-badge">-29%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Pipoqueira, Pop Time, Branco, 220v, Britânia</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="old-price">R$182,94</span>
+                                <span class="price">R$129,80</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Produto 3 -->
+                
+                <a href="https://amzn.to/3U7Fj6C" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/51N-Nxg43ML._AC_SX569_.jpg" alt="Mixer Britânia 3 em 1 BMX400P Preto 400W" class="product-img">
+                        <span class="discount-badge">-20%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mixer Britânia 3 em 1 BMX400P Preto 400W</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="old-price">R$139,88</span>
+                                <span class="price"> R$175,00 </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Produto 4 -->
+                
+                <a href="https://amzn.to/4685Rw0" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/51idNLBObaL._AC_SX466_.jpg" alt="Microondas R1 BRANCO PORTA PRETA 20L" class="product-img">
+                        <span class="discount-badge">-14%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Microondas R1 BRANCO PORTA PRETA 20L</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="old-price">R$484,86</span>
+                                <span class="price">R$412,22</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>                
+                
+            </div> <!-- Fecha container relative -->
+        </div> <!-- Fecha container geral -->
+    </section> <!-- Fim da seção de ofertas especiais -->
+    
+    <!-- Seção: Produtos em Destaque Bebês -->
+    <section class="destaque-produtos" style="padding-bottom: 20px;">
+        <div class="container">
+            <div class="header-destaque">
+                <h2 class="titulo-destaque">Mais Vendidos para Bebês</h2>
+            </div>
+            
+            <div class="grid-destaque" id="featured-products">
+                <!-- Produto 1 -->
+                
+                <a href="https://amzn.to/40OgccR" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/91Ua53sAhnL._AC_SY741_.jpg" alt="Body Pacote com 5 bodies de manga comprida Joys" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Body Pacote com 5 bodies de manga comprida Joys</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="price">R$161,37</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Produto 2 -->
+                
+                <a href="https://amzn.to/4lMQ61T" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/91qg13wQRgL._AC_SY741_.jpg" alt="Macacão de dormir para bebês Pijama de algodão" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Macacão de dormir para bebês Pijama de algodão</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="price">R$239,88</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Produto 3 -->
+                
+                <a href="https://amzn.to/46C4xSc" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/81fLiGg0L8L._AC_SY741_.jpg" alt="Pacote com 6 bodies sem mangas" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Pacote com 6 bodies sem mangas</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="price"> R$178,84 </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Produto 4 -->
+                
+                <a href="https://amzn.to/44tFXl9" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/81+Lq8xJe3L._AC_SY741_.jpg" alt="Pacote com 3 pijamas de algodão com pés" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Pacote com 3 pijamas de algodão com pés</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="price">R$239,88</span>
+                            </div>
+                        </div>
+                    </div>
+                </a> 
+            </section>
+
+    <!-- Seção: Produtos em Destaque Músicas -->
+    <section class="destaque-produtos" style="padding-bottom: 20px;">
+        <div class="container">
+            <div class="header-destaque">
+                <h2 class="titulo-destaque">Mais Vendidos em Músicas</h2>
+            </div>
+            
+            <div class="grid-destaque" id="featured-products">
+                <!-- Produto 1 -->
+                
+                <a href="https://amzn.to/4kz1sWo" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/61lluwjvNlL._AC_SX679_.jpg" alt="QCY MeloBuds Pro, Fone Bluetooth" class="product-img">
+                        <span class="discount-badge">-15%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">QCY MeloBuds Pro, Fone Bluetooth</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="old-price">R$299,00</span>
+                                <span class="price"> R$254,15</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Produto 2 -->
+                
+                <a href="https://amzn.to/3IrmB7x" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/414+kOLlS5L._AC_SY450_.jpg" alt="Fone de Ouvido Sem Fio, JBL, Bluetooth, Wave Buds 2" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Fone de Ouvido Sem Fio, JBL, Bluetooth, Wave Buds 2</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="price">R$274,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Produto 3 -->
+                
+                <a href="https://amzn.to/46HkhmR" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/51BJmJbc-fL._AC_SX679_.jpg" alt="soundcore P20i da Anker Fone de Ouvido Sem Fio, Drivers de 10mm" class="product-img">
+                        <span class="discount-badge">-35%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">soundcore P20i da Anker Fone de Ouvido Sem Fio, Drivers de 10mm</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="old-price"> R$259,00</span>
+                                <span class="price">  R$168,35 </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Produto 4 -->
+                
+                <a href="https://amzn.to/46E0KUj" class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="src/91TNNGtrhyL._AC_SX679_.jpg" alt="Corda para guitarra elétrica Elixir Strings" class="product-img">
+                        <span class="discount-badge">-6%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Corda para guitarra elétrica Elixir Strings</h3>
+                        <p class="product-brand"></p>
+                        <div class="product-footer">
+                            <div class="price-info" style="display: flex; flex-direction: column; align-items: center;">
+                                <span class="old-price"> R$151,95</span>
+                                <span class="price">R$162,95</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>                
+                
+            </div> <!-- Fecha container relative -->
+        </div> <!-- Fecha container geral -->
+    </section> <!-- Fim da seção de ofertas especiais -->
+    
+        </body>
+        </html>
+        <!-- ✅ Rodapé movido para fora da seção de ofertas -->
+        <footer class="bg-gray-900 text-gray-400 py-12">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 justify-center text-center">
+                    
+                    <!-- Coluna 1: Logo e descrição -->
+                    <div>
+                        <div class="flex items-center mb-4 justify-center text-center">
+                            <img src="logo.png" alt="Logo ADSshop" class="mr-2" width="30" height="30">
+                            <h3 class="text-white font-bold">ADSshop</h3>
+                        </div>
+                        <p class="mb-4">A melhor loja de tecnologia online com os melhores preços e atendimento.</p>
+                        <!-- Ícones sociais removidos -->
+                    </div>
+                    
+                    <!-- Coluna 2: Sobre Nós -->
+                    <div>
+                        <h4 class="text-white font-bold mb-4">Sobre Nós</h4>
+                        <ul class="space-y-2">
+                            <li>Nossa História</li>
+                            <li>Nossa Missão</li>
+                            <li>Carreiras</li>
+                            <li>Termos de Serviço</li>
+                            <li>Política de Privacidade</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Coluna 3: Ajuda -->
+                    <div>
+                        <h4 class="text-white font-bold mb-4">Ajuda</h4>
+                        <ul class="space-y-2">
+                            <li>FAQ</li>
+                            <li>Envio e Entrega</li>
+                            <li>Devoluções</li>
+                            <li>Pagamentos</li>
+                            <li>Contate-nos</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Coluna 4: Contato -->
+                    <div>
+                        <h4 class="text-white font-bold mb-4">Contato</h4>
+                        <address class="not-italic space-y-2">
+                            <p>Av. Paulista, 5984 <br>São Paulo - SP</p>
+                            <p>conts@ADSshop.com</p>
+                            <p>(55) 12752-557</p>
+                        </address>
+                    </div>
+                </div>
+                
+                <!-- Direitos autorais -->
+                <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
+                    <p>&copy; 2023 ADSshop. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
